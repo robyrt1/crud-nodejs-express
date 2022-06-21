@@ -1,0 +1,25 @@
+POST http://localhost:4002/products
+Content-Type: application/json 
+
+{
+    "name": "celular",
+    "price": 450
+}
+###
+
+GET http://localhost:4002/products
+###
+GET http://localhost:4002/products/
+
+###
+PUT  http://localhost:4002/products/d905e4e1-a023-4cb9-825e-84d7a74bd4a2
+Content-Type: application/json 
+
+{
+    "name": "celular rosa",
+    "price": 500
+}
+
+###
+
+DELETE http://localhost:4002/products/5bcb5b1b-ebd0-4fde-9a8e-4f08e2b84ca2
